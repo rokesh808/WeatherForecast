@@ -10,19 +10,19 @@ async function getWeather(city){
     document.querySelector('.temperature').innerHTML=Math.round(data.main.temp)+'°c';
     document.querySelector('.city').innerHTML=data.name;
     if(data.weather[0].description=='rain' || data.weather[0].description==' shower rain')
-        icon.src="images/heavy-rain.png";
+        icon.src="./heavy-rain.png";
     else if(data.weather[0].description=='clear sky')
-        icon.src="images/sun.png";
+        icon.src="./sun.png";
     else if(data.weather[0].description=='thunderstorm')
-        icon.src="images/strom.png"
+        icon.src="./strom.png"
     else if(data.weather[0].description=='snow')
-        icon.src="images/snow.png"
+        icon.src="./snow.png"
     else if(data.weather[0].description=='few clouds')
-        icon.src="images/few clouds.png"
+        icon.src="./few clouds.png"
     else if(data.weather[0].description=='scattered clouds' || data.weather[0].description=='broken clouds')
-        icon.src="images/scattered clouds.png"
+        icon.src="./scattered clouds.png"
     else if(data.weather[0].description=='haze')
-        icon.src="images/haze.png"
+        icon.src="./haze.png"
     document.querySelector('.wind').innerHTML=data.wind.speed+'km/h';
     document.querySelector('.humidity').innerHTML=data.main.humidity+'%';
     document.querySelector('.invalid').style.display='none';
