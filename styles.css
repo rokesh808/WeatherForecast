@@ -24,6 +24,10 @@ body{
     justify-content: center;
     margin:40px 0 40px 0;
 }
+.logo{
+    margin-top:7px;
+    color:slateblue;
+}
 .search-details input{
     outline:0;
     border:0;
