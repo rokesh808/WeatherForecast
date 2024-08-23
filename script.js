@@ -38,5 +38,5 @@ btn.addEventListener('click',()=>{
     getWeather(city);
     setTimeout(()=>{
         city.value="";
-    },2000);
+    },1300);
 })
