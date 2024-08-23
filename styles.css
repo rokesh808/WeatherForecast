@@ -16,7 +16,7 @@ body{
     background: linear-gradient(180deg,rgba(47, 224, 236, 0.7),rgba(46, 218, 112, 0.7));
     color:#fff;
     text-align: center;
-    margin-bottom:30px;
+    margin-bottom:18px;
 }
 .weather .search-details{
     display: flex;
@@ -27,6 +27,7 @@ body{
 .logo{
     margin-top:12px;
     color:slateblue;
+    margin-bottom:-5px;
 }
 .search-details input{
     outline:0;
